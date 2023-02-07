@@ -1,0 +1,213 @@
+@font-face {
+  font-display: auto;
+  font-family: "Neue Montreal";
+  src: url("./PPNeueMontreal/PPNeueMontreal-Book.otf");
+}
+
+:root {
+  --light-main-color: #f7f7f7;
+  --dark-main-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Neue Montreal", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section {
+  width: 100%;
+  padding: 10vh 0;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0.2em;
+}
+
+.text {
+  font-size: 1.3rem;
+  line-height: 1.3em;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__text {
+  font-size: 1.2rem;
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+
+.btn__icon {
+  font-size: 2.2rem;
+  padding: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 100%;
+}
+
+.line-container {
+  display: block;
+  overflow: hidden;
+}
+
+.line {
+  display: block;
+  height: 0.1rem;
+}
+
+.title--scroll-effect {
+  margin-right: 100px;
+}
+
+.scroll-effect {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scroll-effect__text {
+  padding: 0 3rem;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.anim-hidden {
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .subtitle {
+    font-size: 2.8rem;
+  }
+
+  .scroll-effect__text {
+    font-size: 3.5rem;
+  }
+
+  .btn__text {
+    font-size: 1.5rem;
+  }
+
+  .btn__icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 20vh 0;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .title {
+    font-size: 6.5rem;
+  }
+
+  .subtitle {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section {
+    padding: 30vh 0;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .subtitle {
+    font-size: 4rem;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .btn__text {
+    font-size: 2rem;
+  }
+
+  .btn__icon {
+    font-size: 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .title {
+    font-size: 8rem;
+  }
+
+  .text {
+    font-size: 1.7rem;
+    line-height: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

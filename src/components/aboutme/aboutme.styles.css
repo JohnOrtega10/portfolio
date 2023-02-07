@@ -1,0 +1,126 @@
+.aboutme {
+  background-color: var(--light-main-color);
+  color: var(--dark-main-color);
+}
+
+.aboutme__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.aboutme__items--text {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.btn--aboutme {
+  margin-top: 16px;
+  align-self: flex-end;
+}
+
+.aboutme__text {
+  margin-bottom: 10px;
+}
+
+.line--education {
+  background-color: var(--dark-main-color);
+}
+
+.line--tecnologies {
+  background-color: var(--dark-main-color);
+}
+
+.aboutme__item {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.aboutme__item-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.aboutme__date {
+  font-size: 0.8rem;
+  transition: 0.3s;
+  display: inline-block;
+  background-color: var(--dark-main-color);
+  color: var(--light-main-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+}
+
+.aboutme__icon {
+  overflow: hidden;
+}
+
+.aboutme__arrow {
+  font-size: 3.2rem;
+  margin-right: 20px;
+  font-weight: 400;
+}
+
+.figure {
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.img--aboutme {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.aboutme__item-tecnologies {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutme__items {
+    width: 65%;
+    align-self: flex-end;
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutme__items {
+    margin-top: 120px;
+  }
+
+  .aboutme__arrow {
+    font-size: 3.7rem;
+  }
+
+  .aboutme__item-information {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-items: center;
+  }
+
+  .aboutme__date {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .aboutme__items {
+    width: 62%;
+  }
+}

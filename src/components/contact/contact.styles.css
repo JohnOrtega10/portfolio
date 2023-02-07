@@ -1,0 +1,94 @@
+.contact {
+  background-color: var(--light-main-color);
+  color: var(--dark-main-color);
+}
+
+.contact__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact__send-message {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.contact__text {
+  margin-bottom: 50px;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.link-style {
+  text-decoration: underline;
+}
+
+.contact__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact__input-container {
+  width: 100%;
+}
+
+.contact__input {
+  width: 100%;
+  outline: 0;
+  padding: 1.3em 0;
+  border: none;
+  background-color: transparent;
+  transition: 0.3s;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.contact__input::placeholder {
+  color: var(--dark-main-color);
+}
+
+.contact__input:hover {
+  background-color: #edeaea;
+  padding: 1.3em;
+}
+
+.contact__input:focus {
+  background-color: #edeaea;
+  padding: 1.3em;
+}
+
+.contact__input--area {
+  max-height: 9em;
+}
+
+.btn--contact {
+  align-self: flex-end;
+}
+
+.contact__message {
+  margin-top: 1.3rem;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.line--contact {
+  background-color: var(--dark-main-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .contact__send-message {
+    width: 65%;
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact__send-message {
+    width: 62%;
+  }
+}
+
