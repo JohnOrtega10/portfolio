@@ -56,7 +56,7 @@ const Header = () => {
   return (
     <div className="menu">
       <a className="menu__header menu__header--logo" href="#home">
-        eo
+        je
       </a>
       <div className="menu__header menu__header--btn" onClick={toggleMenu}>
         <div className="menu__btn" ref={menuText}>
