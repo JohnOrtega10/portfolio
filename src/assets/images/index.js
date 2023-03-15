@@ -4,6 +4,7 @@ import pokedexProject from "./pokedex.png";
 import crudProject from "./crud.png";
 import rinkAndMortyProject from "./rick_and_morty.png";
 import academloDegree from "./academlo.png";
+import reviewsProject from "./reviews.png";
 
 const images = {
   academloDegree,
@@ -12,6 +13,7 @@ const images = {
   pokedexProject,
   crudProject,
   rinkAndMortyProject,
+  reviewsProject,
 };
 
-export default images
+export default images;

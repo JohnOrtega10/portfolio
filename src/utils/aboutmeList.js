@@ -22,7 +22,7 @@ const tegnologiesList = [
   {
     id: 1,
     type: "Frontend",
-    tegnologies: "HTML, CSS, Javascript, ReactJS, Redux, Bootstrap",
+    tegnologies: "HTML, CSS, Javascript, Typescript, ReactJS, Redux, Bootstrap",
   },
   {
     id: 2,
