@@ -129,7 +129,7 @@ const AboutMe = () => {
           </p>
           <a
             className="btn btn--aboutme"
-            href="https://drive.google.com/file/d/1tMRyUm2h039gdFGn6fEH8_9cArcD1Tg3/view?usp=share_link"
+            href="https://drive.google.com/file/d/13hs7DW4xHUEwWIPm9hugFxSlq8OYaQq5/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >

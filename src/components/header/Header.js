@@ -103,7 +103,7 @@ const Header = () => {
               <li className="personal-information__item">
                 <p className="personal-information__title">Celular</p>
                 <p className="personal-information__description text">
-                  +57 3108894385
+                  +57 3124873311
                 </p>
               </li>
               <li className="personal-information__item">
