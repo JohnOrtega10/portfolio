@@ -5,6 +5,7 @@ import crudProject from "./crud.png";
 import rinkAndMortyProject from "./rick_and_morty.png";
 import academloDegree from "./academlo.png";
 import reviewsProject from "./reviews.png";
+import speakupProject from "./speakup.png";
 
 const images = {
   academloDegree,
@@ -14,6 +15,7 @@ const images = {
   crudProject,
   rinkAndMortyProject,
   reviewsProject,
+  speakupProject,
 };
 
 export default images;
